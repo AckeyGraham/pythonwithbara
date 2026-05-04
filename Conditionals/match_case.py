@@ -1,13 +1,13 @@
-#Match Cases
+# Match Cases
 
 country = "United States"
 if country == "United States":
     print("USA")
-elif country =="india":
+elif country == "india":
     print("IN")
 else:
     print("Unknown Country")
-    
+
 # The above is very long way to get all the code, hence match case
 
 match country:
@@ -21,7 +21,5 @@ match country:
         print("DE")
     case _:
         print("Unknown Country")
-        
-# Easy to read above.
 
-    
+# Easy to read above.
